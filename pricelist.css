@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+body{
+	background-color:#C0C0C0;
+}
+#mainContent{
+
+background-color:#C0C0C0;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+
+}
+
+#mainContentBody{
+
+background-color:#C0C0C0;
+margin-top: 120px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.cxMg{
+	
+	width: 60px;
+}
+
+.headerPriceList{
+	
+	background-color: #FFDD00;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+#linhaBotoes{
+	padding:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	margin:20px;
+	width:1000px;
+}
+
+.botao-simulador{
+	
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:0.8rem;
+}
+
+.botao-simulador:hover{
+	
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:0.8rem;
+}
+
+#divCanvasSimulador{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+#divCanvasMargens{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.lupa{
+	color:black;
+	font-size:22px;
+}
+.lupa:hover{
+	color:white;
+	cursor:pointer;
+	font-size:22px;
+}
+
+#pesquisa{
+	width:300px;
+	margin-right:20px;
+}
+
+#barra_pesquisa{
+	width:400px;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	
+}
+
+#menu{
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	
+}
+
+.h-50vh{
+	height: 40vh !important;
+}
+
+.h-70vh{
+	height: 70vh !important;
+}
+
+#divCanvasVarios{
+	
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+#linhaMercadoFamilias{
+	padding:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	margin:20px;
+	width:1000px;
+}
+
+.opcoesGerais{
+	padding:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	border:1px;
+	border-style:solid;
+	border-color:grey;
+	margin:20px;
+	width:500px;
+}
+
+.mensagensAvisos{
+	padding:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	
+	margin:20px;
+	width:500px;
+}
+#tabelaLinha{
+	
+	padding-bottom:40px;
+}
+#tabelaMedias{
+	padding-bottom:75px;
+	
+}
+
+#listaMarcas{
+	
+	width:180px;
+	margin-right:10px;
+	
+}
+
+#divselectMercado{
+	
+}
+#selectMercado{
+	width:180px;
+	margin-right:10px;
+	
+	
+}
+
+#selectCampanha{
+	width:250px;
+	margin-right:10px;
+
+	
+}
+
+#botaoAcordeao{
+	height:30px;
+	color:black;
+	width: 440px;
+}
+
+#collapseOne, #headingOne, #accItem{
+	width: 440px;
+	
+}
+
+#acordeaoTabela{
+
+margin-bottom: 30px;
+	
+}
+
+#btnListar{
+	
+	width:100px;
+	margin-right:10px;
+}
+
+#aplicarCampanha{
+	
+	width:200px;
+	height:38px;
+}
+
+#descontoCampanha{
+
+}
+
+#btnExportar{
+
+}
+
+#tabelaPcu{
+	width:100%;
+	font-size: 1rem;
+}
+
+.textoBloco{
+	
+	width:50px;
+}
+
+.bi{
+	margin-right:10px;
+}
+
+#margemGlobal{
+	width:50px;
+	
+}
+
+#pcuSemIva,#pcuComIva,#txIva,#mgAplicada,#pvpIva,#lucro{
+	width:80px;
+}
+
+#btnSimular{
+	margin-left:10px;
+	
+}
+
+#descontoCampanha{
+	width:50px;
+	
+	
+}
+
+#divSimulador{
+	
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+#basic-addon3{
+	background-color:#c0c0c0;
+	border-color:#c0c0c0;
+}
+
+#aplicarGlobal{
+
+	
+}
+
+#aplicarCampanha{
+	margin-left:10px;
+	
+}
+
+.inputs{
+	border:solid 1px;
+	border-color:#C0C0C0;
+	border-radius: 5px;
+	width:75px;
+}
+
+.validade1Cor{
+	background-color:#FF6961 !important;
+}
+.validade2Cor{
+	background-color:#FBFAA2 !important;
+}
+
+.validade3Cor{
+	background-color:#C4DEA4 !important;
+}
+
+
+#navBarFoot{
+	font-size: 0.6rem;
+	background: black;
+	width:200px;
+	height:30px;
+	display: flex;
+	flex-direction: row;
+  	justify-content:space-around;
+	font-weight: normal;
+	border:solid 1px;
+	border-color:black;
+	border-top-right-radius: 10px;
+	color:white;
+
+}
+
+#divTabelaMargens{
+	width:300px;
+	font-size: 1rem;
+}
+
+#divExportar{
+	display: flex;
+	flex-direction: column;
+  	justify-content:space-around;
+	height: 100px;
+	
+}
+
+.pad{
+	
+}
+
+#divCnpProduto{
+	padding:10px;
+}
+
+#offCanvasMensagem{
+	
+	height:80px;
+	
+}
